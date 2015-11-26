@@ -1,0 +1,41 @@
+.field {
+  box-shadow: 0 5px 15px #000;
+  width: 786px;
+  height: 786px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -392.5px;
+  margin-top: -392.5px;
+  background: url('./../../img/dungeon/stones.jpg');
+  background-size: 30%;
+  border-left: 1px solid rgba(255, 255, 255, .4);
+  border-top: 1px solid rgba(255, 255, 255, .4);
+  border-right: 1px solid rgba(255, 255, 255, .4);
+  z-index: -2;
+}
+
+.field .row {
+  padding: 0;
+  margin: 0;
+}
+
+.field .row .land {
+  width: 28px;
+  height: 28px;
+  float: left;
+  border-bottom: 1px solid rgba(255, 255, 255, .4);
+  color: #999;
+  font-size: 9px;
+  line-height: 28px;
+}
+
+.field .row .land:hover {
+  background: rgba(255, 255, 255, .2);
+  cursor: pointer;
+}
+
+.field .row .land + .land {
+  width: 28px;
+  border-left: 1px solid rgba(255, 255, 255, .4);
+}

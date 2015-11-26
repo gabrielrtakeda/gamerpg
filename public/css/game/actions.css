@@ -1,0 +1,13 @@
+.attackable {
+  background: rgba(195, 75, 0, .3);
+}
+
+.walkable {
+  background: rgba(255, 255, 255, .2);
+}
+
+.debug-coords {
+  float: left;
+  position: relative;
+  z-index: -1;
+}

@@ -1,0 +1,24 @@
+.mage {
+  width: 28px;
+  height: 28px;
+  background: url('./../../../img/characters/lvl1-mage.png');
+  background-size: 28px;
+
+  /*border-radius: 22px;
+  margin: 2px;*/
+  /*background: #7db9e8;
+  background: -moz-radial-gradient(center, ellipse cover,  #7db9e8 0%, #2989d8 35%, #1e5799 85%);
+  background: -webkit-radial-gradient(center, ellipse cover,  #7db9e8 0%,#2989d8 35%,#1e5799 85%);
+  background: radial-gradient(ellipse at center,  #7db9e8 0%,#2989d8 35%,#1e5799 85%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=1 );*/
+
+  /*background: #b20329;
+  background: -moz-radial-gradient(center, ellipse cover,  #b20329 0%, #8f0222 44%, #6d0019 100%);
+  background: -webkit-radial-gradient(center, ellipse cover,  #b20329 0%,#8f0222 44%,#6d0019 100%);
+  background: radial-gradient(ellipse at center,  #b20329 0%,#8f0222 44%,#6d0019 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b20329', endColorstr='#6d0019',GradientType=1 );*/
+}
+
+.mage.fixed {
+  background: rgba(255, 255, 255, .2);
+}
